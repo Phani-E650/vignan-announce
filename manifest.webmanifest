@@ -1,0 +1,15 @@
+{
+  "name": "Vignan Lara Announcements",
+  "short_name": "VLITS Announcements",
+  "start_url": "/vignan-announce/",
+  "background_color": "#20B2AA",
+  "theme_color": "#E64C63",
+  "icons": [
+    {
+      "src": "/The-BOcT/boctstyle/icons/robot128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "display": "full-screen"
+}
