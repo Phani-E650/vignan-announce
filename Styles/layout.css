@@ -189,7 +189,6 @@ main {
   padding: 12px 0;
 }
 
-
 /*------------------------------------------------------------------------------*/
 footer {
   width: 100%;
@@ -198,4 +197,5 @@ footer {
   border-radius: 0 0 30px 30px;
   box-sizing: border-box;
   padding: 7px;
+  text-align: center;
 }
