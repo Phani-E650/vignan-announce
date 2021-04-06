@@ -2,69 +2,38 @@ main {
   height: 600px;
 }
 
-.newsbar {
-  width: 92%;
-  height: 36px;
-  margin: 0 auto;
-  background-color: hsl(82, 30%, 35%);
-  box-shadow: 3px 3px 10px hsl(0, 0%, 40%);
-}
-.newsbar marquee {
-  height: 24px;
-  margin: 6px;
-  font-size: 18px;
-  font-family: monospace;
-  background-color: hsla(48, 100%, 93%, 1);
-}
-
-.branch_block {
-  margin: 0 2%;
-  width: 96%;
-  height: 300px;
-}
-
-.branch_block h2 {
-  font-family: "Courier New", Courier, monospace;
+main h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  font-size: 30px;
+  margin: 15px;
 }
 
-.branch_cards_block {
-  width: 98%;
-  margin: 0 1%;
-  height: 120px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+#annouce-cards-div {
+  padding: 10px;
 }
 
-.the_card {
-  margin: 10px;
-  height: 200px;
-  width: 200px;
-  transition: all 0.2s linear;
-  padding: 5px;
-  background-color: black;
-}
-.the_card:hover {
-  transform: scale(1.1);
-}
-@media screen and (max-width: 750px) {
-  .the_card {
-    height: 140px;
-    width: 140px;
-    margin: 7px;
-  }
-}
-.card_content {
-  display: block;
+.card-announce {
   width: 100%;
-  height: 100%;
-  background-color: white;
-  color: black;
-  text-align: center;
-  text-decoration: none;
+  height: 120px;
+  padding: 5px;
+  margin: 10px 0;
+  background-color: hsla(82, 30%, 35%, 0.8);
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
-.progresss {
-  text-align: center;
+.card-announce h3 {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.card-meta {
+  display: flex;
+}
+
+.card-meta p {
+  font-family: monospace;
+  margin: 0 10px;
 }
