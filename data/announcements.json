@@ -7,20 +7,7 @@
       "content_preview": "this is the information regarding exams",
       "full_content_link_name": "link-SEE-for-6th"
     },
-    {
-      "title": "Hackathon",
-      "date": "5/4/2021",
-      "author": "Dept. of CSE",
-      "content_preview": "A hackathon will be conducted on mid-march. intrested students Apply. Read more...",
-      "full_content_link_name": "link-hackathon-cse"
-    },
-    {
-      "title": "Sports Competitions",
-      "date": "28/2/2021",
-      "author": "Dept. of Sports",
-      "content_preview": "For Chess, Cricket, Carroms, Football, VolleyBall",
-      "full_content_link_name": ""
-    }
+    
   ],
 
   "archive": []
