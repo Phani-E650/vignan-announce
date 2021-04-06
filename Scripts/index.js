@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
       let latest_from_JSON = PrimaryJSON.latest;
 
       latest_from_JSON.forEach((i) => {
-        let aCard = CardTemplate(i.title, i.date, i.author, i.content);
+        let aCard = CardTemplate(i.title, i.date, i.author, i.content_preview);
         All_the_cards += aCard;
       });
       TheCardsDiv.innerHTML = All_the_cards;
