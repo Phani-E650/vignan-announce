@@ -27,6 +27,13 @@ function CardTemplate(title, date, author, content) {
         <img src="download.jfif " alt="Image " class="ca-time"></img>
       </div>
       <p class="ca-content">${content}</p>
-    </div>
+      <p>Click on the play button to play a sound:</p>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 `;
+    </div>
 }
