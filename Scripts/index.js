@@ -29,4 +29,4 @@ function CardTemplate(title, date, author, content) {
       <p class="ca-content">${content}</p>
       
     </div>
-});
+}
