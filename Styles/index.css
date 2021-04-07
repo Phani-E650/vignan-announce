@@ -20,7 +20,7 @@ main h2 {
   height: auto;
   padding: 5px;
   margin: 10px 0;
-  background-color: hsla(82, 30%, 35%, 0.8);
+  background-color: hsla(20, 60%, 75%, 0.8);
   border: 2px solid black;
   border-radius: 5px;
 }
