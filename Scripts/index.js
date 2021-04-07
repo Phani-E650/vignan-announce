@@ -27,6 +27,5 @@ function CardTemplate(title, date, author, content) {
         <img src="download.jfif " alt="Image " class="ca-time"></img>
       </div>
       <p class="ca-content">${content}</p>
-      
-    </div>
+      </div>
 }
