@@ -24,7 +24,7 @@ function CardTemplate(title, date, author, content) {
     <div class="card-announce">
       <h3>${title}</h3>
       <div class="card-meta">
-        <img src=${Image} alt="Image " class="ca-time"></img>
+        <img src="download.jfif " alt="Image " class="ca-time"></img>
       </div>
       <p class="ca-content">${content}</p>
     </div>
